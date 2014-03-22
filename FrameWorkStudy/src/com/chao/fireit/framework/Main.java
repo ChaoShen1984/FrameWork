@@ -3,8 +3,8 @@ package com.chao.fireit.framework;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Boy a = BoyManager.createBoy();
+		a.fireEvent(Boy.FIRE_EVENT_EAT);
 	}
 
 }
